@@ -1,4 +1,7 @@
+import Algorithms.bubbleSort;
 import Tests.SortingDeck.sortingDeck;
+
+import java.util.Arrays;
 
 public class main {
 
@@ -8,7 +11,8 @@ public class main {
 //        sortingDeck sortingDeck = new sortingDeck();
 
 
-
+        //Bubble sort
+//        bubbleSort bubbleSort = new bubbleSort(new int[]{1,55,90,33});
 
 
     }

@@ -1,19 +1,18 @@
-import Algorithms.bubbleSort;
-import Tests.SortingDeck.sortingDeck;
-
-import java.util.Arrays;
+import Algorithms.Sorting.bubbleSort;
+import Algorithms.Sorting.selectionSort;
 
 public class main {
 
     public static void main(String[] args){
 
-//        Тест Сортировка колоды
+//        Test Sorting Decks
 //        sortingDeck sortingDeck = new sortingDeck();
 
-
         //Bubble sort
-//        bubbleSort bubbleSort = new bubbleSort(new int[]{1,55,90,33});
+//        bubbleSort bubbleSort = new bubbleSort(new int[]{99,88,77,66});
 
+        //Selection sort
+        selectionSort selectionSort=new selectionSort(new int[]{50,43,99,12});
 
     }
 }

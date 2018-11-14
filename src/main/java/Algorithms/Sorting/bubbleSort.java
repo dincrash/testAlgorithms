@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorithms.Sorting;
 
 import java.util.Arrays;
 
@@ -6,6 +6,9 @@ import java.util.Arrays;
 
 public class bubbleSort {
 
+
+    // суть алгоритма сначала 1 число проверяется со всеми и как бы сдвигается вправо
+    // потом второе число проверяется справа со всеми и так же сдвигается вправо
     public bubbleSort(int arr[]) {
         int n = arr.length;
         int temp = 0;

@@ -1,6 +1,7 @@
 import Algorithms.Sorting.bubbleSort;
 import Algorithms.Sorting.insertionSort;
 import Algorithms.Sorting.selectionSort;
+import Tests.Fibonacci;
 import Tests.SortingDeck.sortingDeck;
 
 import java.util.Arrays;
@@ -21,8 +22,11 @@ public class main {
 
 
         //insertion sort
-        insertionSort insertionSort=new insertionSort(new int[]{50,43,99,12});
+//        insertionSort insertionSort=new insertionSort(new int[]{50,43,99,12});
 
+
+        //Fibonacci Series(Числа Фибоначи)
+        Fibonacci fibonacci = new Fibonacci(10);
     }
 
 

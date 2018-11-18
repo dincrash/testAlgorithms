@@ -2,6 +2,7 @@ import Algorithms.Sorting.bubbleSort;
 import Algorithms.Sorting.insertionSort;
 import Algorithms.Sorting.selectionSort;
 import Tests.Fibonacci;
+import Tests.PrimeNumber;
 import Tests.SortingDeck.sortingDeck;
 
 import java.util.Arrays;
@@ -26,7 +27,11 @@ public class main {
 
 
         //Fibonacci Series(Числа Фибоначи)
-        Fibonacci fibonacci = new Fibonacci(10);
+//        Fibonacci fibonacci = new Fibonacci(10);
+
+        //Check to prime number or not( Проверка простое число или нет)
+        PrimeNumber primeNumber = new PrimeNumber(61);
+
     }
 
 

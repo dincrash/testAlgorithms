@@ -1,13 +1,8 @@
-import Algorithms.Sorting.bubbleSort;
-import Algorithms.Sorting.insertionSort;
-import Algorithms.Sorting.selectionSort;
-import Tests.Fibonacci;
-import Tests.PrimeNumber;
-import Tests.SortingDeck.sortingDeck;
+import Algorithms.PalindromeNumber;
 
-import java.util.Arrays;
+public class main  {
 
-public class main {
+
 
     public static void main(String[] args){
 
@@ -30,9 +25,16 @@ public class main {
 //        Fibonacci fibonacci = new Fibonacci(10);
 
         //Check to prime number or not( Проверка простое число или нет)
-        PrimeNumber primeNumber = new PrimeNumber(61);
+//        PrimeNumber primeNumber = new PrimeNumber(61);
+
+        //Check palindrome number or not
+//        PalindromeNumber palindromeNumber = new PalindromeNumber(454);
+//        PalindromeNumber dq = new PalindromeNumber(451);
+
 
     }
+
+
 
 
 
